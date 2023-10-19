@@ -233,7 +233,7 @@ echo "   - Websocket OpenVPN       : 2097"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "    [INFORMASI Sqd, Bdvp, Ngnx]" | tee -a log-install.txt
 echo "    ---------------------------" | tee -a log-install.txt
-echo "   - Squid Proxy             : 3128, 8000, 8080 (limit to IP Server)"  | tee -a log-install.txt
+echo "   - Squid Proxy             : 3128, 8000 (limit to IP Server)"  | tee -a log-install.txt
 echo "   - Badvpn                  : 7100, 7200, 7300"  | tee -a log-install.txt
 echo "   - Nginx                   : 81"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
