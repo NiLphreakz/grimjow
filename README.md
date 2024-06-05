@@ -64,13 +64,7 @@ Latest Xray Core
   sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/NiLphreakz/grimjow/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
 
   ```
-  
-  ## ♦️USE THIS COMMAND TO ACCESS THE UDP-CUSTOM MENU♦️
 
-  ```html
-wget "https://raw.githubusercontent.com/NiLphreakz/UDP-CUSTOM/main/install.sh" -O install.sh && chmod +x install.sh && ./install.sh
-  ```
-  
   
   ## ⚠️ FIX IF XRAYCORE PROBLEM (OLD VERSION V1.7.5) ⚠️
 
