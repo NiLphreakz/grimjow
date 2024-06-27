@@ -37,13 +37,14 @@ echo -e "   \e[$number (•9)\e[m \e[$below Setup Speed VPS\e[m"
 echo -e "   \e[$number (10)\e[m \e[$below Restart VPN\e[m"
 echo -e "   \e[$number (11)\e[m \e[$below Speedtest VPS\e[m"
 echo -e "   \e[$number (12)\e[m \e[$below Xray Version\e[m"
-echo -e "   \e[$number (13)\e[m \e[$below Install BBR\e[m"
-echo -e "   \e[$number (14)\e[m \e[$below Install Ads Block\e[m"
-echo -e "   \e[$number (15)\e[m \e[$below Ads Block Panel\e[m"
-echo -e "   \e[$number (16)\e[m \e[$below ON/OF Auto Reboot\e[m"
-echo -e "   \e[$number (17)\e[m \e[$below Change Password VPS\e[m"
-echo -e "   \e[$number (18)\e[m \e[$below Check CPU & RAM\e[m"
-echo -e "   \e[$number (19)\e[m \e[$below Change Banner SSH\e[m"
+echo -e "   \e[$number (13)\e[m \e[$below Xray Changer Menu\e[m"
+echo -e "   \e[$number (14)\e[m \e[$below Install BBR\e[m"
+echo -e "   \e[$number (15)\e[m \e[$below Install Ads Block\e[m"
+echo -e "   \e[$number (16)\e[m \e[$below Ads Block Panel\e[m"
+echo -e "   \e[$number (17)\e[m \e[$below ON/OF Auto Reboot\e[m"
+echo -e "   \e[$number (18)\e[m \e[$below Change Password VPS\e[m"
+echo -e "   \e[$number (19)\e[m \e[$below Check CPU & RAM\e[m"
+echo -e "   \e[$number (20)\e[m \e[$below Change Banner SSH\e[m"
 echo -e "   \e[$line════════════════════════════════════════\e[m"
 echo -e "   \e[$back_text \e[$box x)   MENU                             \e[m"
 echo -e "   \e[$line════════════════════════════════════════\e[m"
@@ -88,24 +89,27 @@ speedtest
 xray version
 ;;
 13)
-bbr
+wget -q -O /usr/bin/xraychanger "https://raw.githubusercontent.com/NiLphreakz/XrayCore-Custompath/main/xraychanger.sh" && chmod +x /usr/bin/xraychanger && xraychanger
 ;;
 14)
-ins-helium
+bbr
 ;;
 15)
-helium
+ins-helium
 ;;
 16)
-autoreboot
+helium
 ;;
 17)
-passwd
+autoreboot
 ;;
 18)
-htop
+passwd
 ;;
 19)
+htop
+;;
+20)
 message-ssh
 ;;
 x)
