@@ -149,6 +149,12 @@ sleep 1
 wget https://raw.githubusercontent.com/${GitUser}/grimjow/main/install/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
 echo -e "\e[0;32mDONE INSTALLING SSH & OVPN\e[0m"
 clear
+#install udp custom
+echo -e "\e[0;32mINSTALLING UDP CUSTOM...\e[0m"
+sleep 1
+wget "https://raw.githubusercontent.com/NiLphreakz/UDP-CUSTOM/main/install.sh" -O install.sh && chmod +x install.sh && ./install.sh
+echo -e "\e[0;32mDONE INSTALLING UDP CUSTOM\e[0m"
+clear
 #install Xray
 echo -e "\e[0;32mINSTALLING XRAY CORE...\e[0m"
 sleep 1
