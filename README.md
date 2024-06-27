@@ -65,14 +65,6 @@ Latest Xray Core
 
   ```
 
-  
-  ## ⚠️ FIX IF XRAYCORE PROBLEM (OLD VERSION V1.7.5) ⚠️
-
-  ```html
-  mv /usr/local/bin/xray /usr/local/bin/xray.bakk && wget -q -O /usr/local/bin/xray "https://github.com/NiLphreakz/Xcore-custompath/releases/download/Xray_Official_1.7.5/xray" && chmod 755 /usr/local/bin/xray && restart
-
-  ```
-
 ## Description :
 
   Service & Port:-
