@@ -150,11 +150,11 @@ echo -e " \e[$below    $total_ssh         $vmess       $vless        $xtls      
 echo -e " \e[$line╒════════════════════════════════════════════════════════════╕\e[m"
 echo -e "  \e[$back_text                        \e[30m[\e[$box PANEL MENU\e[30m ]\e[1m                       \e[m"
 echo -e " \e[$line╘════════════════════════════════════════════════════════════╛\e[m"
-echo -e "  \e[$number (1)\e[m \e[$below XRAY VMESS & VLESS\e[m"
-echo -e "  \e[$number (2)\e[m \e[$below TROJAN XRAY & WS\e[m"
-echo -e "  \e[$number (3)\e[m \e[$below SSHWS & OPENVPN\e[m"
-echo -e "  \e[$number (4)\e[m \e[$below INSTALL UDP-CUSTOM\e[m"
-echo -e "  \e[$number (5)\e[m \e[$below UDP-CUSTOM MENU\e[m"     
+echo -e "  \e[$number (1)\e[m \e[$below XRAY VMESS & VLESS MENU\e[m"
+echo -e "  \e[$number (2)\e[m \e[$below TROJAN XRAY & WS MENU\e[m"
+echo -e "  \e[$number (3)\e[m \e[$below SSHWS & OPENVPN MENU\e[m"
+echo -e "  \e[$number (4)\e[m \e[$below NOOBZVPN MENU\e[m"
+echo -e "  \e[$number (5)\e[m \e[$below UDP CUSTOM MENU\e[m"     
 echo -e " \e[$line╒════════════════════════════════════════════════════════════╕\e[m"
 echo -e "  \e[$back_text                        \e[30m[\e[$box VPS MENU\e[30m ]\e[1m                       \e[m"
 echo -e " \e[$line╘════════════════════════════════════════════════════════════╛\e[m"
@@ -184,7 +184,7 @@ case $menu in
     ssh
     ;;
 4)
-    wget "https://raw.githubusercontent.com/NiLphreakz/UDP-CUSTOM/main/install.sh" -O install.sh && chmod +x install.sh && ./install.sh
+    wget -q -O /usr/sbin/main "https://raw.githubusercontent.com/NiLphreakz/noobzvpns/main/menu-noobzvpns" && chmod +x /usr/sbin/main && main
     ;;	
 5)
     udp
